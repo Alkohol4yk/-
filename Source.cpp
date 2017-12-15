@@ -7,7 +7,19 @@
 #include <time.h>
 using namespace std;
 
+double n, m;
+char f[100] = "Vvid.txt";
+int a[1000];
+int ifa;
+double D;
 
+void nov_f()
+{
+	system("cls");
+	cout << "Введіть назву нового файлу, або повну його адресу:";
+	cin >> f;
+	ifa = 0;
+}
 
 
 void main()
